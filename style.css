@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#head{
+    height: 80px;
+    background-color:#354f52 ;
+    text-align: center;
+    color: #facfd7;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.icn {
+    height: 120px;
+    width: 120px;
+    margin: 30px;
+    border: 1px solid black;
+    padding: 30px;
+    border-radius: 50%;
+    background-color: #84a98c;
+    box-shadow: 0 4px 10px rgba(58, 111, 88, 0.3); /* horizontal-offset | vertical-offset | blur-radius | color */
+}
+
+.icn:hover{
+    background-color: #52796f;
+}
+
+#gameIcon{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.scoreBox{
+    height: 100px;
+    width: 100px;
+    margin: 20px;
+    font-size: 24px;
+    text-align: center;
+    border: 1px solid black;
+     border-radius: 30%;
+    padding: 20px;
+    background-color:#f3c9d1 ;
+    color: #354f52;
+}
+#score{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#msg{
+    width: 350px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+#resetBtn{
+    padding: 1rem;
+    font-size: 1.25rem;
+    background-color: #024137cd;
+    color: beige;
+    border-radius: 1rem;
+}
+
+#msgBox{
+     display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+}
